@@ -15,6 +15,7 @@ import "react-vertical-timeline-component/style.min.css";
 const About = () => {
   return (
     <section className='max-container'>
+    
       <h1 className='head-text'>
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
@@ -188,19 +189,21 @@ const About = () => {
         </div>
       </div>
 
-      <div className='info-box mt-auto flex flex-col items-center justify-center'>
+      <div className='info-box mt-auto flex flex-col items-center justify-center text-center'>
         <p className='font-medium sm:text-xl text-center'>
           Wanna know more about me and my career?
         </p>
 
         <Link
           to='https://drive.google.com/file/d/1GTb98GpVdZ2MNO5oIik76fPtYi02Rheo/view?usp=drive_link'
-          className='neo-brutalism-white neo-btn mt-5 flex items-center justify-center'
+          className='neo-brutalism-white neo-btn mt-5 flex items-center justify-center text-center'
+          style={{ width: 'fit-content', padding: '0.75rem 1.5rem' }}
         >
           Learn more
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain ml-2' />
         </Link>
       </div>
+
 
       <hr className='border-slate-200' />
 

@@ -5,7 +5,7 @@ import { arrow } from "../assets/icons";
 
 const Projects = () => {
   return (
-    <section className='max-container flex flex-col justify-between min-h-screen'>
+    <section className='max-container flex flex-col items-center justify-center min-h-screen'>
       <div>
         <h1 className='head-text'>
           My{" "}
@@ -62,22 +62,27 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Add the info-box div for 'Learn more' */}
-      <div className='info-box mt-auto flex flex-col items-center justify-center'>
-        <p className='font-medium sm:text-xl text-center'>
-          Wanna explore some more exciting projects?
-        </p>
+      <div className='info-box mt-auto flex flex-col items-center justify-center w-full'>
+        <div className='max-w-[400px] w-full text-center'>
+          <p className='font-medium sm:text-xl'>
+            Wanna explore some more exciting projects?
+          </p>
 
-        <Link to='https://github.com/Ahib-Afnan-Siam?tab=repositories' className='neo-brutalism-white neo-btn mt-5'>
-          Learn more
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain ml-2' />
-        </Link>
+          <Link
+            to='https://github.com/Ahib-Afnan-Siam?tab=repositories'
+            className='neo-brutalism-white neo-btn mt-5 inline-flex items-center justify-center mx-auto'
+          >
+            Learn more
+            <img src={arrow} alt='arrow' className='w-4 h-4 object-contain ml-2' />
+          </Link>
+        </div>
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className='border-slate-200 mt-8' />
 
       <CTA />
     </section>
+
   );
 };
 

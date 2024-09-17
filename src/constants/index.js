@@ -289,8 +289,8 @@ export const achievements = [
     {
         title: "TOP 25 | NATIONAL ICT COMPETITION",
         organization: "Bangladesh ICT Division",
-        icon: part, // Use the part icon for top positions
-        iconBg: "#D3D3D3", // Grayish background for top positions
+        icon: part, 
+        iconBg: "#D3D3D3",
         date: "2016",
         points: [
             "Recognized as one of the top 25 participants in the National ICT Competition organized by the Bangladesh ICT Division."
@@ -299,8 +299,8 @@ export const achievements = [
     {
         title: "WINNER | NDECS ASTRONOMY COMPETITION",
         organization: "Notre Dame Eco & Space Club",
-        icon: win, // Use the win icon for winner positions
-        iconBg: "#FFD700", // Goldish background for winner positions
+        icon: win, 
+        iconBg: "#FFD700", 
         date: "2018",
         points: [
             "Awarded first place in the NDECS Astronomy Competition hosted by the Notre Dame Eco & Space Club."
@@ -309,8 +309,8 @@ export const achievements = [
     {
         title: "WINNER | NATIONAL SPACE OLYMPIAD COMPETITION",
         organization: "Notre Dame College, Dhaka Division",
-        icon: win, // Use the win icon for winner positions
-        iconBg: "#FFD700", // Goldish background for winner positions
+        icon: win, 
+        iconBg: "#FFD700", 
         date: "2018",
         points: [
             "Achieved first place in the National Space Olympiad Competition held in Dhaka Division, organized by Notre Dame College."
@@ -319,8 +319,8 @@ export const achievements = [
     {
         title: "TOP 5 | NATIONAL SPACE OLYMPIAD COMPETITION",
         organization: "Bangladesh",
-        icon: part, // Use the part icon for top positions
-        iconBg: "#D3D3D3", // Grayish background for top positions
+        icon: part, 
+        iconBg: "#D3D3D3",
         date: "2018",
         points: [
             "Secured a top 5 position in the National Space Olympiad Competition across Bangladesh."
@@ -329,8 +329,8 @@ export const achievements = [
     {
         title: "TOP 5 | ODOMMO 50",
         organization: "Robotics Club of BRAC University",
-        icon: part, // Use the part icon for top positions
-        iconBg: "#D3D3D3", // Grayish background for top positions
+        icon: part, 
+        iconBg: "#D3D3D3", 
         date: "2022",
         points: [
             "Ranked among the top 5 teams in the ODOMMO 50 competition organized by the Robotics Club of BRAC University."
@@ -339,8 +339,8 @@ export const achievements = [
     {
         title: "WINNER | MIND SPARKS",
         organization: "AUST",
-        icon: win, // Use the win icon for winner positions
-        iconBg: "#FFD700", // Goldish background for winner positions
+        icon: win, 
+        iconBg: "#FFD700", 
         date: "2023",
         points: [
             "Awarded first place at the Mind Sparks project showcasing event hosted by AUST."
@@ -349,8 +349,8 @@ export const achievements = [
     {
         title: "TOP 5 (WORLDWIDE) | MISSION OZ 2022",
         organization: "SPACE TEAMS",
-        icon: part, // Use the part icon for top positions
-        iconBg: "#D3D3D3", // Grayish background for top positions
+        icon: part,
+        iconBg: "#D3D3D3",
         date: "2022",
         points: [
             "Achieved a top 5 position globally in the Mission OZ 2022 competition organized by SPACE TEAMS."

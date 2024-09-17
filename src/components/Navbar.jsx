@@ -2,6 +2,10 @@ import { NavLink } from "react-router-dom";
 
 import { logo } from "../assets/images";
 
+import { Link } from "react-router-dom";
+
+import { socialLinks } from "../constants";
+
 const Navbar = () => {
   return (
     <header className='header'>
