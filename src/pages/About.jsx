@@ -195,7 +195,7 @@ const About = () => {
         </p>
 
         <Link
-          to='https://drive.google.com/file/d/1GTb98GpVdZ2MNO5oIik76fPtYi02Rheo/view?usp=drive_link'
+          to='https://drive.google.com/file/d/1ogux5qvTY4xhu79X4ef4GBZDDbvFDko2/view?usp=sharing'
           className='neo-brutalism-white neo-btn mt-5 flex items-center justify-center text-center'
           style={{ width: 'fit-content', padding: '0.75rem 1.5rem' }}
         >

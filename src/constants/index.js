@@ -421,6 +421,6 @@ export const projects = [
 
 export const cvLink = [
     {
-        link: 'https://drive.google.com/file/d/1GTb98GpVdZ2MNO5oIik76fPtYi02Rheo/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/1ogux5qvTY4xhu79X4ef4GBZDDbvFDko2/view?usp=sharing',
     },
 ];
