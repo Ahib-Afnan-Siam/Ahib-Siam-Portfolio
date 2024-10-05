@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 
 import { CTA } from "../components";
-import { experiences, skills, achievements, cvLink } from "../constants";
+import { experiences, skills, achievements, extracurricularActivities, cvLink, certificates } from "../constants"; // Add certificates import
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -127,6 +127,66 @@ const About = () => {
         </div>
       </div>
 
+      {/* New Section for Extracurricular Activities */}
+      <div className='py-16'>
+        <h3 className='subhead-text'>Extracurricular Activities.</h3>
+        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+          <p>
+            Alongside academics, I have been actively involved in various clubs and activities that enhanced my leadership and teamwork skills.
+          </p>
+        </div>
+
+        <div className='mt-12 flex'>
+          <VerticalTimeline>
+            {extracurricularActivities.map((activity, index) => (
+              <VerticalTimelineElement
+                key={activity.organization}
+                date={activity.date}
+                iconStyle={{ background: activity.iconBg }}
+                icon={
+                  <div className='flex justify-center items-center w-full h-full'>
+                    <img
+                      src={activity.icon}
+                      alt={activity.organization}
+                      className='w-[60%] h-[60%] object-contain'
+                    />
+                  </div>
+                }
+                contentStyle={{
+                  borderBottom: "8px",
+                  borderStyle: "solid",
+                  borderBottomColor: activity.iconBg,
+                  boxShadow: "none",
+                }}
+              >
+                <div>
+                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                    {activity.title}
+                  </h3>
+                  <p
+                    className='text-black-500 font-medium text-base'
+                    style={{ margin: 0 }}
+                  >
+                    {activity.organization}
+                  </p>
+                </div>
+
+                <ul className='my-5 list-disc ml-5 space-y-2'>
+                  {activity.points.map((point, index) => (
+                    <li
+                      key={`activity-point-${index}`}
+                      className='text-black-500/50 font-normal pl-1 text-sm'
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
+        </div>
+      </div>
+
       <div className='py-16'>
         <h3 className='subhead-text'>Personal Achievement.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -177,6 +237,67 @@ const About = () => {
                   {achievement.points.map((point, index) => (
                     <li
                       key={`achievement-point-${index}`}
+                      className='text-black-500/50 font-normal pl-1 text-sm'
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
+        </div>
+      </div>
+
+      {/* New Section for Certificates */}
+      <div className='py-16'>
+        <h3 className='subhead-text'>Certificates.</h3>
+        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+          <p>
+            I have earned various certificates that showcase my commitment to continuous learning 
+            and development in different domains. Here are some notable certificates I have received:
+          </p>
+        </div>
+
+        <div className='mt-12 flex'>
+          <VerticalTimeline>
+            {certificates.map((certificate, index) => (
+              <VerticalTimelineElement
+                key={certificate.organization}
+                date={certificate.date}
+                iconStyle={{ background: certificate.iconBg }}
+                icon={
+                  <div className='flex justify-center items-center w-full h-full'>
+                    <img
+                      src={certificate.icon}
+                      alt={certificate.organization}
+                      className='w-[60%] h-[60%] object-contain'
+                    />
+                  </div>
+                }
+                contentStyle={{
+                  borderBottom: "8px",
+                  borderStyle: "solid",
+                  borderBottomColor: certificate.iconBg,
+                  boxShadow: "none",
+                }}
+              >
+                <div>
+                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                    {certificate.title}
+                  </h3>
+                  <p
+                    className='text-black-500 font-medium text-base'
+                    style={{ margin: 0 }}
+                  >
+                    {certificate.organization}
+                  </p>
+                </div>
+
+                <ul className='my-5 list-disc ml-5 space-y-2'>
+                  {certificate.points.map((point, index) => (
+                    <li
+                      key={`certificate-point-${index}`}
                       className='text-black-500/50 font-normal pl-1 text-sm'
                     >
                       {point}

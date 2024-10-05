@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, Turing, craft, pi, part, win } from "../assets/images";
+import { meta, shopify, starbucks, tesla, Turing, craft, pi, part, win, bracu,cerf1,cerf2,cerf3, robu, ndesc } from "../assets/images";
 import {
     car,
     contact,
@@ -252,6 +252,20 @@ export const experiences = [
         ],
     },
     {
+        title: "Student Tutor | CSE 330 (Numerical Methods)",
+        company_name: "BRAC University",
+        icon: bracu,
+        iconBg: "#F0F8FF",
+        date: "Jan 2023 - May 2023",
+        points: [
+            "Provided tutoring support to students in the Numerical Methods course (CSE 330).",
+            "Assisted students with complex numerical algorithms, matrix operations, and equation solving techniques.",
+            "Led problem-solving sessions to reinforce key concepts and improve student understanding.",
+            "Graded assignments and provided constructive feedback to help students enhance their performance.",
+        ],
+    },
+    
+    {
         title: "Internship | Full  STack Web Developer",
         company_name: "Meta CraftLAb",
         icon: craft,
@@ -418,6 +432,132 @@ export const projects = [
     },
 ];
 
+export const extracurricularActivities = [
+    {
+        title: "Vice President",
+        organization: "Notre Dame Eco & Space Club",
+        icon: ndesc,  
+        iconBg: "#D3D3D3",
+        date: "2018",
+        points: [
+            "Led the Notre Dame Eco & Space Club, organizing various environmental and space-related events."
+        ],
+    },
+    {
+        title: "Director, Human Resource",
+        organization: "Robotics Club of BRAC University",
+        icon: robu,  
+        iconBg: "#FFD700",
+        date: "2023",
+        points: [
+            "Managed human resources for the Robotics Club, overseeing member recruitment, events, and team collaboration."
+        ],
+    },
+];
+
+export const certificates = [
+    {
+      title: "Completion of Basics of Robotics",
+      organization: "Robotics Club of BRAC University (ROBU)",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2021",
+      points: [
+        "Completed the basics of robotics, covering foundational concepts in robotics engineering."
+      ],
+    },
+    {
+      title: "Intra-University Programming Contest | BUET",
+      organization: "BUET",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in BUET’s Intra-University Programming Contest."
+      ],
+    },
+    {
+      title: "Intra-University Programming Contest | BRAC University",
+      organization: "BRAC University",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in BRAC University’s Intra-University Programming Contest."
+      ],
+    },
+    {
+      title: "Mind Sparks | AUST Robotics Club",
+      organization: "AUST Robotics Club",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in Mind Sparks, focusing on the Soccer Bot competition."
+      ],
+    },
+    {
+      title: "Intra-University Girls Programming Contest | BRAC University",
+      organization: "BRAC University",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Volunteered at the Intra-University Girls Programming Contest hosted by BRAC University."
+      ],
+    },
+    {
+      title: "ODOMMO 50 | Robotics Club of BRAC University",
+      organization: "Robotics Club of BRAC University",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in the ODOMMO 50 Hackathon organized by BRAC University’s Robotics Club."
+      ],
+    },
+    {
+      title: "Completion of Data Science",
+      organization: "Datacamp",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Completed a comprehensive Data Science course, gaining skills in Python, data analysis, and machine learning."
+      ],
+    },
+    {
+      title: "Basics of Robotics | Robotics Club of BRAC University",
+      organization: "Robotics Club of BRAC University",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Served as an instructor for the Basics of Robotics course at BRAC University’s Robotics Club."
+      ],
+    },
+    {
+      title: "Mind Sparks | AUST Robotics Club",
+      organization: "AUST Robotics Club",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Showcased a project at Mind Sparks hosted by AUST Robotics Club."
+      ],
+    },
+    {
+      title: "BRACU Hope Fest | BRAC University",
+      organization: "BRAC University",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Volunteered at BRACU Hope Fest, supporting event organization and management."
+      ],
+    },
+  ];
+  
 
 export const cvLink = [
     {
