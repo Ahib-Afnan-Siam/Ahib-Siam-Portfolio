@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 
 import { CTA } from "../components";
-import { experiences, skills, achievements, extracurricularActivities, cvLink, certificates } from "../constants"; // Add certificates import
+import { experiences, skills, achievements, extracurricularActivities, cvLink, certificates, blogLink } from "../constants"; 
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -55,9 +55,11 @@ const About = () => {
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
+                {/* Hover text (tooltip) with skill name */}
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
+                  title={skill.name} 
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
@@ -312,13 +314,15 @@ const About = () => {
 
       <div className='info-box mt-auto flex flex-col items-center justify-center text-center'>
         <p className='font-medium sm:text-xl text-center'>
-          Wanna know more about me and my career?
+          Wanna read my blogs?
         </p>
 
         <Link
-          to='https://drive.google.com/file/d/1ogux5qvTY4xhu79X4ef4GBZDDbvFDko2/view?usp=sharing'
+          to={blogLink[0].link}
+          target="_blank"  // This will make the link open in a new tab
+          rel="noopener noreferrer"  // This adds security to prevent reverse tabnabbing
           className='neo-brutalism-white neo-btn mt-5 flex items-center justify-center text-center'
-          style={{ width: 'fit-content', padding: '0.75rem 1.5rem' }}
+          style={{ width: 'fit-content', padding: '0.5rem 0.5rem' }}
         >
           Learn more
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain ml-2' />

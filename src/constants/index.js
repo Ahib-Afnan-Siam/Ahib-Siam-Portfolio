@@ -561,6 +561,12 @@ export const certificates = [
 
 export const cvLink = [
     {
-        link: 'https://drive.google.com/file/d/1ogux5qvTY4xhu79X4ef4GBZDDbvFDko2/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/1-vP2rjy7o5vob4o3Z6qzRrg6bn-aBjir/view?usp=sharing',
+    },
+];
+
+export const blogLink = [
+    {
+        link: 'https://medium.com/@ahibafnan99',
     },
 ];
