@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, Turing, craft, pi, part, win, bracu,cerf1,cerf2,cerf3, robu, ndesc } from "../assets/images";
+import { meta, shopify, starbucks, tesla, Turing, craft, pi, part, win, bracu,cerf1,cerf2,cerf3, robu, hackerrank, ndesc } from "../assets/images";
 import {
     car,
     contact,
@@ -455,96 +455,46 @@ export const extracurricularActivities = [
     },
 ];
 
+
 export const certificates = [
     {
-      title: "Completion of Basics of Robotics",
-      organization: "Robotics Club of BRAC University (ROBU)",
-      icon: cerf1,
-      iconBg: "#F1C40F",
-      date: "2021",
-      points: [
-        "Completed the basics of robotics, covering foundational concepts in robotics engineering."
-      ],
+        title: "Certificate of Accomplishment in Software Engineer Intern",
+        organization: "HackerRank",
+        icon: hackerrank,
+        iconBg: "#000000",
+        date: "2024",
+        points: [
+          "I’ve obtained a new certification: Certificate of Accomplishment in Software Engineer Intern from HackerRank! It covers topics like Problem solving and SQL."
+        ],
+        credentialId: "6C57FAE14D09",
+        credentialUrl: "https://www.hackerrank.com/certificates/iframe/6c57fae14d09",
+        skills: ["Problem Solving", "Python", "SQL"]
     },
     {
-      title: "Intra-University Programming Contest | BUET",
-      organization: "BUET",
-      icon: cerf2,
-      iconBg: "#F1C40F",
-      date: "2022",
-      points: [
-        "Participated in BUET’s Intra-University Programming Contest."
-      ],
+        title: "Certificate of Accomplishment in Problem Solving (Basic)",
+        organization: "HackerRank",
+        icon: hackerrank,
+        iconBg: "#000000",
+        date: "2024",
+        points: [
+          " I’ve obtained a new certification: Certificate of Accomplishment in Problem Solving (Basic) from HackerRank! It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching)."
+        ],
+        credentialId: "AF4F6EACE87F",
+        credentialUrl: "https://www.hackerrank.com/certificates/iframe/af4f6eace87f",
+        skills: ["Problem Solving", "Python", "Algorithm", "Data Structure"]
     },
     {
-      title: "Intra-University Programming Contest | BRAC University",
-      organization: "BRAC University",
-      icon: cerf3,
-      iconBg: "#F1C40F",
-      date: "2022",
-      points: [
-        "Participated in BRAC University’s Intra-University Programming Contest."
-      ],
-    },
-    {
-      title: "Mind Sparks | AUST Robotics Club",
-      organization: "AUST Robotics Club",
-      icon: cerf1,
-      iconBg: "#F1C40F",
-      date: "2022",
-      points: [
-        "Participated in Mind Sparks, focusing on the Soccer Bot competition."
-      ],
-    },
-    {
-      title: "Intra-University Girls Programming Contest | BRAC University",
-      organization: "BRAC University",
-      icon: cerf2,
-      iconBg: "#F1C40F",
-      date: "2022",
-      points: [
-        "Volunteered at the Intra-University Girls Programming Contest hosted by BRAC University."
-      ],
-    },
-    {
-      title: "ODOMMO 50 | Robotics Club of BRAC University",
-      organization: "Robotics Club of BRAC University",
-      icon: cerf3,
-      iconBg: "#F1C40F",
-      date: "2022",
-      points: [
-        "Participated in the ODOMMO 50 Hackathon organized by BRAC University’s Robotics Club."
-      ],
-    },
-    {
-      title: "Completion of Data Science",
-      organization: "Datacamp",
-      icon: cerf1,
-      iconBg: "#F1C40F",
-      date: "2023",
-      points: [
-        "Completed a comprehensive Data Science course, gaining skills in Python, data analysis, and machine learning."
-      ],
-    },
-    {
-      title: "Basics of Robotics | Robotics Club of BRAC University",
-      organization: "Robotics Club of BRAC University",
-      icon: cerf2,
-      iconBg: "#F1C40F",
-      date: "2023",
-      points: [
-        "Served as an instructor for the Basics of Robotics course at BRAC University’s Robotics Club."
-      ],
-    },
-    {
-      title: "Mind Sparks | AUST Robotics Club",
-      organization: "AUST Robotics Club",
-      icon: cerf3,
-      iconBg: "#F1C40F",
-      date: "2023",
-      points: [
-        "Showcased a project at Mind Sparks hosted by AUST Robotics Club."
-      ],
+        title: "Certificate of Accomplishment in Python (Basic)",
+        organization: "HackerRank",
+        icon: hackerrank,
+        iconBg: "#000000",
+        date: "2024",
+        points: [
+          " I’ve obtained a new certification: Certificate of Accomplishment in Python (Basic) from HackerRank! It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes."
+        ],
+        credentialId: "6AC36B44D0F0",
+        credentialUrl: "https://www.hackerrank.com/certificates/iframe/6ac36b44d0f0",
+        skills: ["Problem Solving", "Python", "Algorithm", "Data Structure"]
     },
     {
       title: "BRACU Hope Fest | BRAC University",
@@ -555,9 +505,108 @@ export const certificates = [
       points: [
         "Volunteered at BRACU Hope Fest, supporting event organization and management."
       ],
+      skills: ["Event Management", "Teamwork", "Coordination"]
     },
-  ];
-  
+    {
+      title: "Mind Sparks | AUST Robotics Club",
+      organization: "AUST Robotics Club",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Showcased a project at Mind Sparks hosted by AUST Robotics Club."
+      ],
+      skills: ["Robotics", "Project Showcasing", "Public Speaking"]
+    },
+    {
+      title: "Basics of Robotics | Robotics Club of BRAC University",
+      organization: "Robotics Club of BRAC University",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Served as an instructor for the Basics of Robotics course at BRAC University’s Robotics Club."
+      ],
+      skills: ["Teaching", "Robotics", "Mentorship"]
+    },
+    {
+      title: "Completion of Data Science",
+      organization: "Datacamp",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2023",
+      points: [
+        "Completed a comprehensive Data Science course, gaining skills in Python, data analysis, and machine learning."
+      ],
+      skills: ["Data Science", "Python", "Machine Learning", "Data Analysis"]
+    },
+    {
+      title: "ODOMMO 50 | Robotics Club of BRAC University",
+      organization: "Robotics Club of BRAC University",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in the ODOMMO 50 Hackathon organized by BRAC University’s Robotics Club."
+      ],
+      skills: ["Hackathon Participation", "Problem Solving", "Teamwork"]
+    },
+    {
+      title: "Intra-University Girls Programming Contest | BRAC University",
+      organization: "BRAC University",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Volunteered at the Intra-University Girls Programming Contest hosted by BRAC University."
+      ],
+      skills: ["Event Management", "Volunteer Coordination"]
+    },
+    {
+      title: "Mind Sparks | AUST Robotics Club",
+      organization: "AUST Robotics Club",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in Mind Sparks, focusing on the Soccer Bot competition."
+      ],
+      skills: ["Robotics", "Automation", "Team Collaboration"]
+    },
+    {
+      title: "Intra-University Programming Contest | BRAC University",
+      organization: "BRAC University",
+      icon: cerf3,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in BRAC University’s Intra-University Programming Contest."
+      ],
+      skills: ["Programming", "Data Structures", "Algorithms"]
+    },
+    {
+      title: "Intra-University Programming Contest | BUET",
+      organization: "BUET",
+      icon: cerf2,
+      iconBg: "#F1C40F",
+      date: "2022",
+      points: [
+        "Participated in BUET’s Intra-University Programming Contest."
+      ],
+      skills: ["Competitive Programming", "Problem Solving", "Algorithm Design"]
+    },
+    {
+      title: "Completion of Basics of Robotics",
+      organization: "Robotics Club of BRAC University (ROBU)",
+      icon: cerf1,
+      iconBg: "#F1C40F",
+      date: "2021",
+      points: [
+        "Completed the basics of robotics, covering foundational concepts in robotics engineering."
+      ],
+    }
+];
+
 
 export const cvLink = [
     {

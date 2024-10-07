@@ -15,6 +15,7 @@ import cerf2 from './certificate(1).png'
 import cerf3 from './digital-certificate.png'
 import robu from './robu.jpg'
 import ndesc from './ndesc.png'
+import hackerrank from './hackerrank.png'
 
 export {
     craft,
@@ -23,6 +24,7 @@ export {
     cerf3,
     bracu,
     hero,
+    hackerrank,
     meta,
     pi,
     part,

@@ -306,11 +306,36 @@ const About = () => {
                     </li>
                   ))}
                 </ul>
+
+                {/* Add credential details */}
+                {certificate.credentialId && (
+                  <p className='text-black-500/50 font-normal text-sm'>
+                    Credential ID: {certificate.credentialId}
+                  </p>
+                )}
+                {certificate.credentialUrl && (
+                  <p className='text-black-500/50 font-normal text-sm'>
+                    <a
+                      href={certificate.credentialUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-blue-600'
+                    >
+                      View Credential
+                    </a>
+                  </p>
+                )}
+                {certificate.skills && (
+                  <p className='text-black-500/50 font-normal text-sm'>
+                    Skills Gained: {certificate.skills.join(", ")}
+                  </p>
+                )}
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
         </div>
       </div>
+
 
       <div className='info-box mt-auto flex flex-col items-center justify-center text-center'>
         <p className='font-medium sm:text-xl text-center'>
