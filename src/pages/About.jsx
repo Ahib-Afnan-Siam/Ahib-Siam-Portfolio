@@ -47,6 +47,7 @@ const About = () => {
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </div>
 
+      {/* Updated Order - Skills first */}
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
 
@@ -68,6 +69,7 @@ const About = () => {
         </div>
       </div>
 
+      {/* Work Experience */}
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -129,66 +131,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* New Section for Extracurricular Activities */}
-      <div className='py-16'>
-        <h3 className='subhead-text'>Extracurricular Activities.</h3>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-            Alongside academics, I have been actively involved in various clubs and activities that enhanced my leadership and teamwork skills.
-          </p>
-        </div>
-
-        <div className='mt-12 flex'>
-          <VerticalTimeline>
-            {extracurricularActivities.map((activity, index) => (
-              <VerticalTimelineElement
-                key={activity.organization}
-                date={activity.date}
-                iconStyle={{ background: activity.iconBg }}
-                icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={activity.icon}
-                      alt={activity.organization}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
-                  </div>
-                }
-                contentStyle={{
-                  borderBottom: "8px",
-                  borderStyle: "solid",
-                  borderBottomColor: activity.iconBg,
-                  boxShadow: "none",
-                }}
-              >
-                <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
-                    {activity.title}
-                  </h3>
-                  <p
-                    className='text-black-500 font-medium text-base'
-                    style={{ margin: 0 }}
-                  >
-                    {activity.organization}
-                  </p>
-                </div>
-
-                <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {activity.points.map((point, index) => (
-                    <li
-                      key={`activity-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
-                    >
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </VerticalTimelineElement>
-            ))}
-          </VerticalTimeline>
-        </div>
-      </div>
-
+      {/* Achievements */}
       <div className='py-16'>
         <h3 className='subhead-text'>Personal Achievement.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -251,7 +194,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* New Section for Certificates */}
+      {/* Certificates */}
       <div className='py-16'>
         <h3 className='subhead-text'>Certificates.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -314,7 +257,7 @@ const About = () => {
                   </p>
                 )}
                 {certificate.credentialUrl && (
-                  <p className='text-black-500/50 font-normal text-sm'>
+                  <p className='text-black-500 font-normal text-sm'>
                     <a
                       href={certificate.credentialUrl}
                       target='_blank'
@@ -336,6 +279,65 @@ const About = () => {
         </div>
       </div>
 
+      {/* Extracurricular Activities */}
+      <div className='py-16'>
+        <h3 className='subhead-text'>Extracurricular Activities.</h3>
+        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+          <p>
+            Alongside academics, I have been actively involved in various clubs and activities that enhanced my leadership and teamwork skills.
+          </p>
+        </div>
+
+        <div className='mt-12 flex'>
+          <VerticalTimeline>
+            {extracurricularActivities.map((activity, index) => (
+              <VerticalTimelineElement
+                key={activity.organization}
+                date={activity.date}
+                iconStyle={{ background: activity.iconBg }}
+                icon={
+                  <div className='flex justify-center items-center w-full h-full'>
+                    <img
+                      src={activity.icon}
+                      alt={activity.organization}
+                      className='w-[60%] h-[60%] object-contain'
+                    />
+                  </div>
+                }
+                contentStyle={{
+                  borderBottom: "8px",
+                  borderStyle: "solid",
+                  borderBottomColor: activity.iconBg,
+                  boxShadow: "none",
+                }}
+              >
+                <div>
+                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                    {activity.title}
+                  </h3>
+                  <p
+                    className='text-black-500 font-medium text-base'
+                    style={{ margin: 0 }}
+                  >
+                    {activity.organization}
+                  </p>
+                </div>
+
+                <ul className='my-5 list-disc ml-5 space-y-2'>
+                  {activity.points.map((point, index) => (
+                    <li
+                      key={`activity-point-${index}`}
+                      className='text-black-500/50 font-normal pl-1 text-sm'
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
+        </div>
+      </div>
 
       <div className='info-box mt-auto flex flex-col items-center justify-center text-center'>
         <p className='font-medium sm:text-xl text-center'>
@@ -353,7 +355,6 @@ const About = () => {
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain ml-2' />
         </Link>
       </div>
-
 
       <hr className='border-slate-200' />
 
