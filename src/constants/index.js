@@ -610,7 +610,7 @@ export const certificates = [
 
 export const cvLink = [
     {
-        link: 'https://drive.google.com/file/d/1-vP2rjy7o5vob4o3Z6qzRrg6bn-aBjir/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/1zuBKuCU0kcFAWsQVTxBsmREJT5Cd4K-F/view?usp=sharing',
     },
 ];
 
