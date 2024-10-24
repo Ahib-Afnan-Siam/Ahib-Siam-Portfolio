@@ -458,6 +458,20 @@ export const extracurricularActivities = [
 
 export const certificates = [
     {
+        title: "Certificate of Accomplishment in Software Engineering",
+        organization: "HackerRank",
+        icon: hackerrank,
+        iconBg: "#000000",
+        date: "2024",
+        points: [
+          "I’ve obtained a new certification: Certificate of Accomplishment in Software Engineering from HackerRank! It covers topics like Problem solving, SQL, and REST API."
+        ],
+        credentialId: "CF5B58274C39",
+        credentialUrl: "https://www.hackerrank.com/certificates/iframe/cf5b58274c39",
+        skills: ["Problem Solving", "Python", "SQL","REST API"]
+    },
+
+    {
         title: "Certificate of Accomplishment in Software Engineer Intern",
         organization: "HackerRank",
         icon: hackerrank,
@@ -610,7 +624,7 @@ export const certificates = [
 
 export const cvLink = [
     {
-        link: 'https://drive.google.com/file/d/1zuBKuCU0kcFAWsQVTxBsmREJT5Cd4K-F/view?usp=sharing',
+        link: 'https://drive.google.com/file/d/12FmES4XIPuWYUgRUhCGsbOBvqwwsWw3w/view?usp=sharing',
     },
 ];
 
