@@ -15,6 +15,7 @@
     "@react-three/fiber": "^8.17.7",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@types/three": "^0.168.0",
+    "@vercel/analytics": "^1.6.1",
     "bcryptjs": "^3.0.3",
     "chart.js": "^4.5.1",
     "crypto": "^1.0.1",
