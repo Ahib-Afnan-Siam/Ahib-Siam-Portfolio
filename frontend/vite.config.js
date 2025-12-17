@@ -4,10 +4,10 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  root: __dirname,
+  root: '.', // Set root to current folder (frontend) if building from frontend/
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
-  base: '/',
+  base: './', // Use relative paths to avoid 404s on deployed site
   server: {
     proxy: {
       '/api': {
@@ -23,7 +23,8 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: path.resolve(__dirname, 'dist'),
+    outDir: 'dist',    // build output will be frontend/dist
+    emptyOutDir: true, // clear old builds
     assetsDir: 'assets',
   }
 })
