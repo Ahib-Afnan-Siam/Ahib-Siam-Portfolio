@@ -1,0 +1,177 @@
+[
+  {
+    "imageUrl": "css",
+    "name": "CSS",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "dart",
+    "name": "Dart",
+    "type": "Programming Language"
+  },
+  {
+    "imageUrl": "django",
+    "name": "Django",
+    "type": "Backend"
+  },
+  {
+    "imageUrl": "dotnet",
+    "name": ".NET",
+    "type": "Backend"
+  },
+  {
+    "imageUrl": "figma",
+    "name": "Figma",
+    "type": "Design"
+  },
+  {
+    "imageUrl": "flutter",
+    "name": "Flutter",
+    "type": "Mobile Development"
+  },
+  {
+    "imageUrl": "git",
+    "name": "Git",
+    "type": "Version Control"
+  },
+  {
+    "imageUrl": "github",
+    "name": "GitHub",
+    "type": "Version Control"
+  },
+  {
+    "imageUrl": "html",
+    "name": "HTML",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "java",
+    "name": "Java",
+    "type": "Programming Language"
+  },
+  {
+    "imageUrl": "javascript",
+    "name": "JavaScript",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "Keras",
+    "name": "Keras",
+    "type": "Machine Learning"
+  },
+  {
+    "imageUrl": "linkedin",
+    "name": "LinkedIn",
+    "type": "Other"
+  },
+  {
+    "imageUrl": "Matplotlib",
+    "name": "Matplotlib",
+    "type": "Data Visualization"
+  },
+  {
+    "imageUrl": "mongodb",
+    "name": "MongoDB",
+    "type": "Database"
+  },
+  {
+    "imageUrl": "motion",
+    "name": "Motion",
+    "type": "Animation"
+  },
+  {
+    "imageUrl": "mui",
+    "name": "Material-UI",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "mysql",
+    "name": "MySQL",
+    "type": "Database"
+  },
+  {
+    "imageUrl": "nextjs",
+    "name": "Next.js",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "nodejs",
+    "name": "Node.js",
+    "type": "Backend"
+  },
+  {
+    "imageUrl": "Numpy",
+    "name": "NumPy",
+    "type": "Machine Learning"
+  },
+  {
+    "imageUrl": "opencv",
+    "name": "OpenCV",
+    "type": "Computer Vision"
+  },
+  {
+    "imageUrl": "opengl",
+    "name": "OpenGL",
+    "type": "Graphics"
+  },
+  {
+    "imageUrl": "Pandas",
+    "name": "Pandas",
+    "type": "Data Analysis"
+  },
+  {
+    "imageUrl": "php3",
+    "name": "PHP",
+    "type": "Backend"
+  },
+  {
+    "imageUrl": "python",
+    "name": "Python",
+    "type": "Programming Language"
+  },
+  {
+    "imageUrl": "PyTorch",
+    "name": "PyTorch",
+    "type": "Machine Learning"
+  },
+  {
+    "imageUrl": "react",
+    "name": "React",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "redux",
+    "name": "Redux",
+    "type": "State Management"
+  },
+  {
+    "imageUrl": "sass",
+    "name": "Sass",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "scikit",
+    "name": "Scikit-learn",
+    "type": "Machine Learning"
+  },
+  {
+    "imageUrl": "tailwindcss",
+    "name": "Tailwind CSS",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "TensorFlow",
+    "name": "TensorFlow",
+    "type": "Machine Learning"
+  },
+  {
+    "imageUrl": "typescript",
+    "name": "TypeScript",
+    "type": "Frontend"
+  },
+  {
+    "imageUrl": "unity",
+    "name": "Unity",
+    "type": "Game Development"
+  }
+]

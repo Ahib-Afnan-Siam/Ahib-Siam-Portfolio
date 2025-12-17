@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Contact",
+    "iconUrl": "contact",
+    "link": "/contact"
+  },
+  {
+    "name": "GitHub",
+    "iconUrl": "github",
+    "link": "https://github.com/Ahib-Afnan-Siam"
+  },
+  {
+    "name": "LinkedIn",
+    "iconUrl": "linkedin",
+    "link": "https://www.linkedin.com/in/ahib-afnan-siam-585081175/"
+  }
+]

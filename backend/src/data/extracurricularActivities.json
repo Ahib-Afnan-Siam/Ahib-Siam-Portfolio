@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Vice President",
+    "organization": "Notre Dame Eco & Space Club",
+    "icon": "ndesc",
+    "iconBg": "#D3D3D3",
+    "date": "2018",
+    "points": [
+      "Led the Notre Dame Eco & Space Club, organizing various environmental and space-related events."
+    ]
+  },
+  {
+    "title": "Director, Human Resource",
+    "organization": "Robotics Club of BRAC University",
+    "icon": "robu",
+    "iconBg": "#FFD700",
+    "date": "2023",
+    "points": [
+      "Managed human resources for the Robotics Club, overseeing member recruitment, events, and team collaboration."
+    ]
+  }
+]

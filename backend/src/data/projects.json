@@ -1,0 +1,82 @@
+[
+  {
+    "iconUrl": "uttoronLogo",
+    "theme": "btn-back-purple",
+    "category": "AI Assistant",
+    "name": "PRAN-RFL AI Assistant - Uttoron",
+    "description": "Built a natural-language-to-SQL assistant using FastAPI, ChromaDB, and Oracle, integrating hybrid LLMs (DeepSeek-V3.2-Exp, DeepSeek-Coder-V2:16B, Mistral) via Ollama for SQL generation, reasoning, and analytical summaries. Engineered schema-aware RAG pipelines with Sentence Transformers and ChromaDB for real-time Oracle SQL execution, intelligent error handling, and visualization of 50M+ enterprise records. Improved company-wide workflow efficiency by automating internal reporting and data access, increasing operational speed and decision-making effectiveness.",
+    "link": "https://github.com/Ahib-Afnan-Siam/oracle-sql-assistant-full.git"
+  },
+  {
+    "iconUrl": "eye",
+    "theme": "btn-back-teal",
+    "category": "Image Processing, Machine Learning and Web Application",
+    "name": "Drishty - PRAN-RFL Facial Recognition Monitoring System",
+    "description": "Built Drishty, a facial recognition–based monitoring and attendance system for PRAN-RFL Group using Python, FastAPI, Flask, and Oracle DB. Integrated YOLOv8 and MobileFaceNet with FAISS-powered vector search for real-time, multi-camera face detection and recognition, featuring quality filtering, multi-frame embedding stability, and automated camera recovery. Designed a secure, dual-dashboard architecture with HRIS-validated access control, approval workflows, and live system health monitoring, significantly enhancing workplace security, attendance automation, and operational efficiency.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Drishty-PRAN-RFL-Facial-Recognition-Monitoring-System.git"
+  },
+  {
+    "iconUrl": "pricewise",
+    "theme": "btn-back-red",
+    "category": "Web Development",
+    "name": "MedSoServe - A Hospital Management System",
+    "description": "Built with HTML, CSS, JavaScript, and PHP, MedsoServe is a fully-functional Hospital Management System designed to optimize hospital workflows. From managing patient records and appointments to handling staff details and billing, this application provides a complete solution for efficient healthcare administration.",
+    "link": "https://github.com/Ahib-Afnan-Siam/MedsoServe---Hospital-Management-System.git"
+  },
+  {
+    "iconUrl": "car",
+    "theme": "btn-back-blue",
+    "category": "Machine Learning",
+    "name": "Car Price Prediction",
+    "description": "A Python-based car price prediction project using machine learning to estimate vehicle prices based on various features.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Car-Price-Predition.git"
+  },
+  {
+    "iconUrl": "snapgram",
+    "theme": "btn-back-pink",
+    "category": "Desktop Application",
+    "name": "Language Translator App",
+    "description": "Python-based language translator app that converts text between multiple languages using a user-friendly interface.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Language-Translator.git"
+  },
+  {
+    "iconUrl": "estate",
+    "theme": "btn-back-black",
+    "category": "Desktop Application",
+    "name": "Food Ordering App",
+    "description": "A Tkinter-based food ordering app featuring interactive menus with images, cart management, delivery or pickup options, and order history tracking.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Food-Ordering-App.git"
+  },
+  {
+    "iconUrl": "summiz",
+    "theme": "btn-back-yellow",
+    "category": "Game Development",
+    "name": "Space Invaders",
+    "description": "A Python-based Space Invaders game created using Pygame. Control your spaceship, shoot down aliens, and avoid enemy fire. Features increasing difficulty, a scoring system, and multiple lives.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Space-Invaders.git"
+  },
+  {
+    "iconUrl": "football",
+    "theme": "btn-back-blue",
+    "category": "Machine Learning",
+    "name": "Football Match Result Prediction",
+    "description": "Developed a project to predict football match results using machine learning algorithms, analyzing historical data to forecast outcomes and assist in betting strategies.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Football-Match-Result-Prediciton.git"
+  },
+  {
+    "iconUrl": "player",
+    "theme": "btn-back-green",
+    "category": "Web Development",
+    "name": "Football Match Analytical Website",
+    "description": "Created a football match analytics website using HTML, CSS, JavaScript, MySQL, and PHP to provide detailed match insights and statistics.",
+    "link": "https://github.com/Ahib-Afnan-Siam/Football-Analytics-Website-Project.git"
+  },
+  {
+    "iconUrl": "threads",
+    "theme": "btn-back-green",
+    "category": "Web Development",
+    "name": "My First Portfolio Website Project",
+    "description": "This website was my previous portfolio. Using React, Node.js, and Next.js, you'll learn how to build a dynamic and responsive portfolio website from start to finish. This project showcases my skills, achievements, and projects in a professional manner, offering visitors a seamless experience to explore my work and expertise.",
+    "link": "https://github.com/Ahib-Afnan-Siam/My-Portfolio.git"
+  }
+]

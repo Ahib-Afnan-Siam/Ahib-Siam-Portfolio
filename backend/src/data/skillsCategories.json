@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Programming Languages",
+    "icon": "💻",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "C",
+      "C++",
+      "C# (basic)",
+      "PHP",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    "title": "AI & Machine Learning",
+    "icon": "🤖",
+    "skills": [
+      "LLM Integration & Orchestration: Ollama, OpenRouter",
+      "Embeddings & RAG: Sentence Transformers, ChromaDB",
+      "Core Data Science & ML: Pandas, NumPy, Scikit-learn, OpenCV, Matplotlib, Seaborn",
+      "LLM Models: DeepSeek (Coder-V2, R1, V3.1), Mistral, Llama 3.1, Gemini 1.5 Flash",
+      "Computer Vision & Face Recognition: YOLOv8n-Face, MobileFaceNet",
+      "Deep Learning Frameworks: PyTorch",
+      "Vector Similarity Search: FAISS"
+    ]
+  },
+  {
+    "title": "Web & Application Frameworks",
+    "icon": "🔧",
+    "skills": [
+      "Backend: FastAPI, Node.js",
+      "Frontend: React.js, Tailwind CSS, Bootstrap, HTML, CSS, JavaScript",
+      "UI/UX & Visualization: Framer Motion, Lucide React, Chart.js, React Markdown",
+      "Real-Time Communication: WebSockets, Uvicorn"
+    ]
+  },
+  {
+    "title": "Developer Tools & Process",
+    "icon": "⚙️",
+    "skills": [
+      "Git",
+      "GitHub",
+      "Unit Testing (pytest/Jest)",
+      "Debugging",
+      "Code Reviews",
+      "LLM Prompt Engineering & Optimization"
+    ]
+  },
+  {
+    "title": "Databases & Data Platforms",
+    "icon": "🗄️",
+    "skills": [
+      "Oracle DB, cx_Oracle",
+      "MySQL",
+      "SQLite",
+      "ChromaDB"
+    ]
+  },
+  {
+    "title": "Databases, Infrastructure & DevOps",
+    "icon": "🛠️",
+    "skills": [
+      "Docker",
+      "REST APIs",
+      "Requests",
+      "PyYAML",
+      "Loguru",
+      "Psutil"
+    ]
+  },
+  {
+    "title": "Specialized Skills",
+    "icon": "🚀",
+    "skills": [
+      "RESTful API Development",
+      "Object-Oriented Programming (OOP)",
+      "Data Structures & Algorithms",
+      "Secure Coding (Authentication/Authorization, Input Validation)",
+      "Responsive Design",
+      "Computer Vision",
+      "Natural Language to SQL (NL2SQL)",
+      "Retrieval-Augmented Generation (RAG) Pipeline Development",
+      "Full-Stack AI Application Development"
+    ]
+  }
+]

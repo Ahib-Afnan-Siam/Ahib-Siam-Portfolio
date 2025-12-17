@@ -1,0 +1,20 @@
+[
+  {
+    "type": "phone",
+    "label": "Phone",
+    "value": "+880-1580716886",
+    "icon": "phone"
+  },
+  {
+    "type": "email",
+    "label": "Email",
+    "value": "ahibafnan99@gmail.com",
+    "icon": "email"
+  },
+  {
+    "type": "linkedin",
+    "label": "LinkedIn",
+    "value": "https://www.linkedin.com/in/ahib-afnan-siam/",
+    "icon": "linkedin"
+  }
+]

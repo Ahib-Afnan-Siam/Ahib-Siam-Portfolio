@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Why RAG Is Replacing Fine-Tuning for Enterprise AI",
+    "link": "https://medium.com/@ahibafnan99/why-rag-is-replacing-fine-tuning-for-enterprise-ai-87e8844f16f1",
+    "description": "Exploring how Retrieval-Augmented Generation is becoming the preferred approach for enterprise AI applications over traditional fine-tuning methods."
+  },
+  {
+    "title": "RAG (Retrieval-Augmented Generation): How It's Transforming AI Applications",
+    "link": "https://medium.com/@ahibafnan99/rag-retrieval-augmented-generation-how-its-transforming-ai-applications-f987aae753ad",
+    "description": "A deep dive into how RAG technology is revolutionizing the landscape of AI applications by combining retrieval mechanisms with generative models."
+  },
+  {
+    "title": "Talk, Don't Type: The Rise of Vibe Coding",
+    "link": "https://medium.com/@ahibafnan99/talk-dont-type-the-rise-of-vibe-coding-94352d83a6e8",
+    "description": "Examining the emerging trend of voice-based programming and how natural language interfaces are changing the way we interact with code."
+  },
+  {
+    "title": "LLMs as Database Interfaces: Can Natural Language Replace SQL?",
+    "link": "https://medium.com/@ahibafnan99/llms-as-database-interfaces-can-natural-language-replace-sql-8dac8d9e46af",
+    "description": "Investigating the potential of Large Language Models to serve as intuitive database interfaces that could replace traditional SQL querying."
+  },
+  {
+    "title": "Google's New Programming Language 'Mangle': Is This the Next Big Shift?",
+    "link": "https://medium.com/@ahibafnan99/googles-new-programming-language-mangle-is-this-the-next-big-shift-9615c892113b",
+    "description": "Analyzing Google's experimental programming language Mangle and its implications for the future of software development."
+  },
+  {
+    "title": "Edge Computing: Bringing Data Processing Closer to the Source",
+    "link": "https://medium.com/@ahibafnan99/edge-computing-bringing-data-processing-closer-to-the-source-757a974c24f2",
+    "description": "Understanding how edge computing is reshaping data processing by moving computation closer to where data is generated."
+  }
+]

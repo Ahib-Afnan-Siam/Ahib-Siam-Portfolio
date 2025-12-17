@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Sub Assistant Manager | MIS",
+    "company_name": "PRAN-RFL Group",
+    "icon": "pranrfl",
+    "iconBg": "#FFFFFF",
+    "date": "November 2025 – Present",
+    "points": [
+      "Designed and implemented a natural-language-to-SQL assistant, \"Uttoron,\" using FastAPI, ChromaDB, and Oracle, integrating hybrid LLMs (DeepSeek-V3.2-Exp, DeepSeek-Coder-V2:16B, and Mistral) via Ollama to enable accurate SQL generation, advanced reasoning, and analytical summarization.",
+      "Engineered schema-aware RAG pipelines with Sentence Transformers and ChromaDB to support real-time Oracle SQL execution, robust error handling, and interactive visualization of over 50 million enterprise records.",
+      "Accelerated organization-wide workflows by automating internal reporting and data access, significantly improving operational efficiency and decision-making speed.",
+      "Developed a real-time facial recognition monitoring system \"Drishty,\" for PRAN-RFL Group using Python, FastAPI, Flask, and Oracle, integrating YOLOv8n-Face and MobileFaceNet for reliable multi-camera face detection, recognition, and automated attendance tracking with advanced quality filtering and identity stabilization.",
+      "Strengthened workplace security and operational oversight through a dual-dashboard architecture, secure two-step authentication with HRIS validation, intelligent camera management, and real-time system monitoring, enabling scalable and data-driven access control across multiple locations."
+    ]
+  },
+  {
+    "title": "Intern - AI Software Engineer | MIS",
+    "company_name": "PRAN-RFL Group",
+    "icon": "pranrfl",
+    "iconBg": "#FFFFFF",
+    "date": "November 2025 – Present",
+    "points": [
+      "Built an on-prem AI assistant using ChromaDB, FastAPI, and Mistral-7B; now advancing to V2 with DeepSeek Coder-V2:16B and DeepSeek-R1 for hybrid model routing.",
+      "Developed secure backends and Oracle-native RAG delivering real-time insights from over 50 million sales records; collaborated via Git/Jira with code reviews and unit tests to ship well-scoped features and bug fixes."
+    ]
+  },
+  {
+    "title": "Internship | Full Stack Web Developer",
+    "company_name": "Meta CraftLab",
+    "icon": "craft",
+    "iconBg": "#FFFFFF",
+    "date": "Apr 2024 - Aug 2024",
+    "points": [
+      "Specialized in web development using Svelte, SvelteKit, Node.js, and SQL.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers."
+    ]
+  },
+  {
+    "title": "Team Lead | AI & Autonomous",
+    "company_name": "BRACU OgniBir",
+    "icon": "pi",
+    "iconBg": "#FFB6C1",
+    "date": "Jan 2023 - Feb 2024",
+    "points": [
+      "Led the AI and Autonomous Systems Team for BRACU Ognibir Robot, driving innovation and overseeing the development of intelligent, autonomous functionalities.",
+      "Oversaw the development of a cutting-edge fire extinguishing autonomous robot.",
+      "Collaborated with cross-functional teams, including Design, Communication & Control, Mechanical, and Software Development, to build a high-performance robotics team.",
+      "Engaged in code reviews, offering insightful and constructive feedback to fellow developers to enhance code quality and team collaboration."
+    ]
+  },
+  {
+    "title": "Student Tutor | CSE 330 (Numerical Methods)",
+    "company_name": "BRAC University",
+    "icon": "bracu",
+    "iconBg": "#F0F8FF",
+    "date": "Jan 2023 - May 2023",
+    "points": [
+      "Provided tutoring support to students in the Numerical Methods course (CSE 330).",
+      "Assisted students with complex numerical algorithms, matrix operations, and equation solving techniques.",
+      "Led problem-solving sessions to reinforce key concepts and improve student understanding.",
+      "Graded assignments and provided constructive feedback to help students enhance their performance."
+    ]
+  },
+  {
+    "title": "Software Quality Assurance (SQA)",
+    "company_name": "Turing",
+    "icon": "Turing",
+    "iconBg": "#D3D3D3",
+    "date": "March 2020 - May 2020",
+    "points": [
+      "Thoroughly tested all features of Google Meet (formerly Hangouts Meet).",
+      "Collaborated effectively with a diverse team of professionals.",
+      "Gained significant experience in video communication tools.",
+      "Participating in code reviews and providing constructive feedback to other developers."
+    ]
+  }
+]

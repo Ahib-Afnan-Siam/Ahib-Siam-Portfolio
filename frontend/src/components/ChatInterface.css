@@ -1,0 +1,80 @@
+/* Define responsive custom properties */
+:root {
+  /* Profile section responsive properties */
+  --profile-flex-direction: column;
+  --profile-align-items: center;
+  --profile-image-size: 8rem;
+  --profile-image-mb: 1rem;
+  --profile-image-mr: 0;
+  
+  /* Projects grid responsive properties */
+  --projects-max-width: 100%;
+  
+  /* Contact grid responsive properties */
+  --contact-grid-columns: repeat(auto-fit, minmax(200px, 1fr));
+  --contact-max-width: 100%;
+}
+
+/* Medium screens and up */
+@media (min-width: 768px) {
+  :root {
+    --profile-flex-direction: row;
+    --profile-align-items: flex-start;
+    --profile-image-mb: 0;
+    --profile-image-mr: 1.5rem;
+
+    --contact-grid-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* Large screens and up */
+@media (min-width: 1024px) {
+  :root {
+    --profile-image-size: 9rem;
+
+    --contact-grid-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1280px) {
+  :root {
+    --profile-image-size: 10rem;
+
+    --contact-grid-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  :root {
+    --profile-image-size: 7rem;
+
+    --contact-grid-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Custom scrollbar for better Apple-like experience */
+.chat-overlay ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-overlay ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.chat-overlay ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.chat-overlay ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Skill tag hover effect */
+.skill-tag:hover {
+  background-color: #2196F3;
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
