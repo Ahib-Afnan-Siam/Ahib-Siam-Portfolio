@@ -9,7 +9,8 @@ import { useEffect, useState } from "react";
 import { arrow } from "../assets/icons";
 
 import { CTA } from "../components";
-import { blogLink } from "../constants"; 
+import { blogLink } from "../constants";
+import { getApiBaseUrl } from "../utils/api"; 
 
 // Import all icons
 import {
@@ -98,6 +99,7 @@ const About = () => {
         setError(null);
         
         // Fetch all data in parallel
+        const baseUrl = getApiBaseUrl();
         const [
           experiencesRes,
           skillsRes,
@@ -105,11 +107,11 @@ const About = () => {
           extracurricularActivitiesRes,
           certificatesRes
         ] = await Promise.all([
-          fetch('http://localhost:5000/api/data/experiences'),
-          fetch('http://localhost:5000/api/data/skills'),
-          fetch('http://localhost:5000/api/data/achievements'),
-          fetch('http://localhost:5000/api/data/extracurricular-activities'),
-          fetch('http://localhost:5000/api/data/certificates')
+          fetch(`${baseUrl}/api/data/experiences`),
+          fetch(`${baseUrl}/api/data/skills`),
+          fetch(`${baseUrl}/api/data/achievements`),
+          fetch(`${baseUrl}/api/data/extracurricular-activities`),
+          fetch(`${baseUrl}/api/data/certificates`)
         ]);
 
         // Check if all responses are ok

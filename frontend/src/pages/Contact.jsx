@@ -25,7 +25,8 @@ const Contact = () => {
     setCurrentAnimation("hit");
 
     try {
-      const response = await fetch('/api/contact/send', {
+      const baseUrl = import.meta.env.MODE === 'development' ? 'http://localhost:5000' : '';
+      const response = await fetch(`${baseUrl}/api/contact/send`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

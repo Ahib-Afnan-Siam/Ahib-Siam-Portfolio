@@ -7,7 +7,7 @@ export default defineConfig({
   root: '.', // Set root to current folder (frontend) if building from frontend/
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
-  base: './', // Use relative paths to avoid 404s on deployed site
+  base: '/', // Use absolute paths for deployment
   server: {
     proxy: {
       '/api': {

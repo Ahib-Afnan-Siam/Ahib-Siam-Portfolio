@@ -9,6 +9,8 @@ import { useFocusTrap } from "../hooks";
 
 // Import screen reader announcer
 import { announceToScreenReader } from "../utils";
+// Import API utility
+import { getApiBaseUrl } from "../utils/api";
 
 // Import the extracted components from the new ChatComponents folder
 import MeResponse from "./ChatComponents/MeResponse";
@@ -197,6 +199,7 @@ const ChatInterface = ({ isVisible, onClose }) => {
       }
 
       // Fetch all data in parallel for better performance
+      const baseUrl = getApiBaseUrl();
       const [
         projectsData,
         descriptionData,
@@ -206,31 +209,31 @@ const ChatInterface = ({ isVisible, onClose }) => {
         researchWorksData,
         blogsData
       ] = await Promise.all([
-        getCachedData('projects', () => fetch('http://localhost:5000/api/data/projects', { signal: controller.signal }).then(res => {
+        getCachedData('projects', () => fetch(`${baseUrl}/api/data/projects`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch projects: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('projects-description', () => fetch('http://localhost:5000/api/data/projects-description', { signal: controller.signal }).then(res => {
+        getCachedData('projects-description', () => fetch(`${baseUrl}/api/data/projects-description`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch projects description: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('skills-categories', () => fetch('http://localhost:5000/api/data/skills-categories', { signal: controller.signal }).then(res => {
+        getCachedData('skills-categories', () => fetch(`${baseUrl}/api/data/skills-categories`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch skills categories: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('experiences', () => fetch('http://localhost:5000/api/data/experiences', { signal: controller.signal }).then(res => {
+        getCachedData('experiences', () => fetch(`${baseUrl}/api/data/experiences`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch experiences: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('contact-info', () => fetch('http://localhost:5000/api/data/contact-info', { signal: controller.signal }).then(res => {
+        getCachedData('contact-info', () => fetch(`${baseUrl}/api/data/contact-info`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch contact info: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('research-works', () => fetch('http://localhost:5000/api/data/research-works', { signal: controller.signal }).then(res => {
+        getCachedData('research-works', () => fetch(`${baseUrl}/api/data/research-works`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch research works: ${res.status} ${res.statusText}`);
           return res.json();
         })),
-        getCachedData('blogs', () => fetch('http://localhost:5000/api/data/blogs', { signal: controller.signal }).then(res => {
+        getCachedData('blogs', () => fetch(`${baseUrl}/api/data/blogs`, { signal: controller.signal }).then(res => {
           if (!res.ok) throw new Error(`Failed to fetch blogs: ${res.status} ${res.statusText}`);
           return res.json();
         }))
@@ -915,7 +918,8 @@ const ChatInterface = ({ isVisible, onClose }) => {
         announceToScreenReader('AI assistant is thinking...', 'polite');
         
         // Send message to backend AI API
-        const response = await fetch('http://localhost:5000/api/ai/chat', {
+        const baseUrl = getApiBaseUrl();
+        const response = await fetch(`${baseUrl}/api/ai/chat`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
