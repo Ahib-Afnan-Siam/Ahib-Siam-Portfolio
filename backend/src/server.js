@@ -26,6 +26,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Serve public directory assets (favicon, CV, etc.)
+app.use(express.static(path.join(__dirname, '../../frontend/public')));
+
 // Serve frontend assets (icons, images, etc.)
 // In production, serve from dist folder; in development, serve from src folder
 if (process.env.NODE_ENV === 'production') {
@@ -33,9 +36,6 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   app.use('/src/assets', express.static(path.join(__dirname, '../../frontend/src/assets')));
 }
-
-// Serve public directory assets (favicon, CV, etc.)
-app.use(express.static(path.join(__dirname, '../../frontend/public')));
 
 // Add logging for static asset requests
 app.use('/src/assets', (req, res, next) => {

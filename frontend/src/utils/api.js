@@ -6,6 +6,7 @@ export const getApiBaseUrl = () => {
     return 'http://localhost:5000';
   }
   // For production, return empty string to use relative paths
+  // This works with Vercel's proxy configuration for /api routes
   return '';
 };
 

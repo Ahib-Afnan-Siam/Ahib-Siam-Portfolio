@@ -2,6 +2,15 @@
   "github": {
     "silent": true
   },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
   "routes": [
     { "handle": "filesystem" },
     {
