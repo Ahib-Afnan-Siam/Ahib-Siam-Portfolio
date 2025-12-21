@@ -1,5 +1,4 @@
 import ahibPortrait from "@/assets/images/ahib-portrait.png";
-import cvFile from "@/assets/documents/Ahib_Afnan_mainCV.pdf";
 
 const MeResponse = () => (
   <div className="p-4">
@@ -60,7 +59,7 @@ const MeResponse = () => (
     {/* Download CV Button */}
     <div className="flex justify-center mt-6">
       <a 
-        href={cvFile} 
+        href="/cv/Ahib_Afnan_mainCV.pdf" 
         download="Ahib_Afnan_Siam_CV.pdf"
         className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105"
       >
