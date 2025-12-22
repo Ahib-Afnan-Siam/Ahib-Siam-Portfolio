@@ -26,5 +26,8 @@ export default defineConfig({
     outDir: 'dist',    // build output will be frontend/dist
     emptyOutDir: true, // clear old builds
     assetsDir: 'assets',
+  },
+  optimizeDeps: {
+    include: ['@vercel/analytics/react']
   }
 })
